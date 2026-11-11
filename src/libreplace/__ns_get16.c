@@ -12,8 +12,7 @@
 
 
 u_int
-__ns_get16(src)
-	const u_char *src;
+__ns_get16(const u_char *src)
 {
         u_int dst;
 
